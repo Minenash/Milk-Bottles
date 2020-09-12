@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "com.minenash.milk_bottles.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "CowEntityMixin",
+    "PotionItemMixin",
+    "StatusEffectMixin"
   ],
   "injectors": {
     "defaultRequire": 1
